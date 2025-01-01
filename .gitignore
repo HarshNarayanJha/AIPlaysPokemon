@@ -1,0 +1,6 @@
+*.env
+*.gba
+*.rom
+*.sav
+*.png
+__pycache__
