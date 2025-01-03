@@ -87,7 +87,7 @@ while playing:
     )
 
     print("Got Response")
-    print(response)
+    print(response.text)
     print()
     print("Making steps...")
 

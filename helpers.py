@@ -36,7 +36,7 @@ def press_b():
 
 
 def press_u():
-    print("Pressing W")
+    print("Pressing Up")
     psd = subprocess.Popen(["echo", "keydown w"], stdout=subprocess.PIPE)
     psu = subprocess.Popen(["echo", "keyup w"], stdout=subprocess.PIPE)
     subprocess.run(["dotoolc"], stdin=psd.stdout, check=True)
@@ -45,7 +45,7 @@ def press_u():
 
 
 def press_l():
-    print("Pressing A")
+    print("Pressing Left")
     psd = subprocess.Popen(["echo", "keydown a"], stdout=subprocess.PIPE)
     psu = subprocess.Popen(["echo", "keyup a"], stdout=subprocess.PIPE)
     subprocess.run(["dotoolc"], stdin=psd.stdout, check=True)
@@ -54,7 +54,7 @@ def press_l():
 
 
 def press_d():
-    print("Pressing A")
+    print("Pressing Down")
     psd = subprocess.Popen(["echo", "keydown s"], stdout=subprocess.PIPE)
     psu = subprocess.Popen(["echo", "keyup s"], stdout=subprocess.PIPE)
     subprocess.run(["dotoolc"], stdin=psd.stdout, check=True)
@@ -63,7 +63,7 @@ def press_d():
 
 
 def press_r():
-    print("Pressing A")
+    print("Pressing Right")
     psd = subprocess.Popen(["echo", "keydown d"], stdout=subprocess.PIPE)
     psu = subprocess.Popen(["echo", "keyup d"], stdout=subprocess.PIPE)
     subprocess.run(["dotoolc"], stdin=psd.stdout, check=True)
