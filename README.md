@@ -5,7 +5,9 @@ This project is my attempt to make AI (Gemini, specifically) play pokemon, and m
 So I start with the aim of making Gemini play the game, or atleast specific parts of it. Based on the last benchmarks, it performed poorly
 , and it just spams AAAAA whenever it gets a chance (as we all Pokemon players do, right?) and nicknames it's starter AAAAAAAAA!?
 
-> Name the Pokemon AAAAAAAA - Gemini, 2025
+> Name the Pokemon AAAAAAAA
+>
+> &mdash; _Gemini, 2025_
 
 The current loop starts with optionally going through the intro sequence (specifically tailored for Pokemon Emerald, but maybe adapted to others),
 then on subsequent runs, advance the main menu, and then it enters the loop by
